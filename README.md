@@ -30,8 +30,8 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#running">Running Program</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -61,17 +61,26 @@ Here's why:
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+### Installation
+* miniconda
   ```sh
-  npm install npm@latest -g
+  conda create -n dhmin python=3.8
+  conda activate dhmin
+  conda deactivate
+  ```
+Note that aliasing the dhmin='conda activate dhmin' and ddhmin='conda deactivate' is convenient.
+
+* OpenAI gym
+  ```sh
+  sudo apt-get update
+  sudo apt-get install golang libcupti-dev libjpeg-turbo8-dev make tmux htop chromium-browser git cmake zlib1g-dev libjpeg-dev xvfb libav-tools xorg-dev python-opengl libboost-all-dev libsdl2-dev swig
+  conda install pip six libgcc swig
+  conda install opencv
+  pip install gym==0.7.0
   ```
 
-### Installation
+### Running
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
