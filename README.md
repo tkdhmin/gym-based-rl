@@ -20,26 +20,6 @@
 -->
 
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#installation">Installation</a></li>
-        <li><a href="#running">Running Program</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-  </ol>
-</details>
-
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -101,8 +81,12 @@ Note that aliasing the dhmin='conda activate dhmin' and ddhmin='conda deactivate
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
-
+## Usage gym-supported environment
+   ```sh
+   print(envs.registry)
+   env = gym.make('CartPole-v1')
+   env.reset()
+   ```
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
