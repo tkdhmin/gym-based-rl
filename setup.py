@@ -4,11 +4,11 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="",
+    name="RL_practice",
     version="1.0.0",
     author="Donghyun Min",
     author_email="mdh38112@sogang.ac.kr",
-    description="A library package CoEdge",
+    description="A package for reinforcement learning practice",
     long_description=long_description,
     long_description_content_type="text/markdown",
     classifiers=[
