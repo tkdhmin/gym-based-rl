@@ -81,4 +81,4 @@ plt.ylabel('Policy Values')
 plt.legend([s0, s1, s2],
            ["State s0", "State s1", "State s2"],
            loc="upper left")
-plt.savefig('policy_history/opt_policy_with_gamma({}).png'.format(str(gamma)), dpi=300)
+plt.savefig('opt_policy_with_gamma({}).png'.format(str(gamma)), dpi=300)

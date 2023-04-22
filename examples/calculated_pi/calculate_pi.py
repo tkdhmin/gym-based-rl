@@ -38,4 +38,4 @@ plt.plot([0, 0], [-1, 1], "red")
 plt.axis('equal')
 plt.margins(x=0, y=0)
 
-plt.savefig('calculated_pi/approximated_pi_value.png', pad_inches=0, bbox_inches='tight')
+plt.savefig('approximated_pi_value.png', pad_inches=0, bbox_inches='tight')
